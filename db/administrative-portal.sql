@@ -57,17 +57,7 @@ CREATE TABLE `students` (
   `class` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
---
--- Dumping data for table `students`
---
 
-INSERT INTO `students` (`id`, `fname`, `lname`, `age`, `class`) VALUES
-(1, 'Ali', 'Ahsan', 21, 1),
-(2, 'Hassan', 'Ahmed', 23, 2),
-(4, 'Gazi', 'Dani', 21, 1),
-(5, 'Tony', 'Fadel', 18, 2),
-(6, 'Lami', 'Saro', 24, 1),
-(7, 'Yazen', 'Rawn', 24, 2);
 
 -- --------------------------------------------------------
 
@@ -102,17 +92,7 @@ CREATE TABLE `teachers` (
   `age` varchar(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
---
--- Dumping data for table `teachers`
---
 
-INSERT INTO `teachers` (`id`, `fname`, `lname`, `age`) VALUES
-(1, 'Sami', 'Rashed', '55'),
-(2, 'Rami', 'Sari', '66');
-
---
--- Indexes for dumped tables
---
 
 --
 -- Indexes for table `classes`
