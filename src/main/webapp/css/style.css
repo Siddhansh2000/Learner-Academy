@@ -15,7 +15,7 @@ table {
  
 th {
 	border-bottom:1px solid gray;
-	background:none repeat scroll 0 0 #0775d3;
+	background:none repeat scroll 0 0 #76b852;
 	padding:10px;
 	color: #FFFFFF;
 }
@@ -29,7 +29,10 @@ tr:nth-child(even) {background: #FFFFFF}
 tr:nth-child(odd) {background: #BBBBBB}	
  
 #wrapper {width: 100%; text-align: center; }
-#header {width: 72%; background: #0775d3; margin-top: 0px; padding:5px 0px 15px 0px;}
+/*
+#header {width: 72%; background: #008040; margin-top: 0px; padding:5px 0px 15px 0px;} 
+*/
+#header {width: 72%; background: #76b852; margin-top: 0px; padding:5px 0px 15px 0px;} 
 #header h3 {width: 100%; margin:auto; color: #FFFFFF;}
 #container {width: 100%; margin:auto}
 #container h3 {color: #000;}
@@ -58,7 +61,7 @@ tr:nth-child(odd) {background: #BBBBBB}
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #000080;
+  background-color: #43A047;
   overflow-x: hidden;
   padding-top: 20px;
 }
@@ -72,7 +75,7 @@ tr:nth-child(odd) {background: #BBBBBB}
 }
 
 .sidenav a:hover {
-  color: blue;
+  color: #76b852;
 }
 
 @media screen and (max-height: 450px) {
